@@ -24,8 +24,42 @@ a{
 div{
     border: solid 1px black;
     width: 360px;
-    height: 360px;
+    height: 420px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+
+}
+div h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 div img{
     width: 250px;
+
+}
+section{
+    text-align: center;
+    display: flex;
+}
+button{
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor:pointer;
+}
+button:hover{
+    background-color:aquamarine;
+}
+footer{
+    width: 100%;
+    min-height: 150px;
+    line-height: 150px;
+    background-color: beige;
+}
+footer h2{
+    text-align: center;
 }
