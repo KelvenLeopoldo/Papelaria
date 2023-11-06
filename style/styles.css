@@ -21,6 +21,10 @@ a{
     text-decoration: none;
     margin: 0px 20px;
 }
+header nav a:hover{
+    color:blue;
+    font-size:larger;
+}
 div{
     border: solid 1px black;
     width: 360px;
@@ -36,8 +40,8 @@ div h2{
 }
 div img{
     width: 250px;
-
 }
+
 section{
     justify-content: center;
     display: flex;
@@ -53,6 +57,7 @@ button{
 }
 button:hover{
     background-color:aquamarine;
+    font-size: large;
 }
 footer{
     width: 100%;
