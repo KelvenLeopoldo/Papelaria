@@ -39,7 +39,7 @@ div img{
 
 }
 section{
-    text-align: center;
+    justify-content: center;
     display: flex;
 }
 button{
